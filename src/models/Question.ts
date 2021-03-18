@@ -1,6 +1,6 @@
 import { CONSTANTS } from "../utils";
-const { DATA_TYPES, DISPLAY_TYPES } = CONSTANTS;
 import Option from "./Option";
+const { DATA_TYPES, DISPLAY_TYPES } = CONSTANTS;
 
 type DataType = keyof typeof DATA_TYPES;
 type DisplayType = keyof typeof DISPLAY_TYPES;
