@@ -1,4 +1,5 @@
 import Section from "./Section";
+import uniqueId from "lodash/uniqueId";
 
 class Page {
 	private _id: string;
@@ -8,6 +9,7 @@ class Page {
 	constructor(title: string) {
 		this._title = title;
 		this._sections = [];
+		this._id = uniqueId("PAGE_ID_");
 	}
 }
 
