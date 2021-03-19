@@ -1,17 +1,18 @@
 .text-input {
-	border-radius: 0;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #aaa;
+	border: none;
 	padding: 10px;
 	font-size: larger;
 	margin: 5px;
 	color: #444;
-	background-color: white;
+	background-color: #ddd;
 	font-family: sans-serif;
+	width: -moz-available;
 }
 
 .text-input:focus {
 	outline: unset;
-	background-color: #eee;
+	padding: 9px;
+	border-width: 2px;
+	border-color: #999;
+	border-style: solid;
 }
