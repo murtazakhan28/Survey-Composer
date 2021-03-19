@@ -7,12 +7,12 @@
 	background-color: #ddd;
 	font-family: sans-serif;
 	width: -moz-available;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #00000000;
 }
 
 .text-input:focus {
 	outline: unset;
-	padding: 9px;
-	border-width: 2px;
 	border-color: #999;
-	border-style: solid;
 }

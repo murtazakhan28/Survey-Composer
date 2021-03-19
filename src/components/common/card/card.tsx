@@ -1,13 +1,8 @@
+import { ReactChild } from "react";
 import "./index.css";
 
-const Card = () => {
-	return (
-		<div className="card">
-			<div className="card-header">Card Header</div>
-			<div className="card-body">Card Body</div>
-			<div className="card-footer">Card Footer</div>
-		</div>
-	);
+const Card = ({ children }: { children?: ReactChild | ReactChild[] }) => {
+	return <div className="card">{children}</div>;
 };
 
 export default Card;
