@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { Survey } from "../../models";
-import { TextInput } from "../common";
+import { TextInput, Card } from "../common";
 import "./index.css";
 
 class Editor extends Component {
@@ -17,6 +17,7 @@ class Editor extends Component {
 				<div className="left-container bg-secondary border-sm"></div>
 				<div className="middle-container">
 					<TextInput value={this.state.value} onChange={this.handleChange} placeholder="Placeholder" />
+					<Card />
 				</div>
 			</div>
 		);
