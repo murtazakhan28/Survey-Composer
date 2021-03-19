@@ -1,0 +1,17 @@
+.text-input {
+	border-radius: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aaa;
+	padding: 10px;
+	font-size: larger;
+	margin: 5px;
+	color: #444;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+.text-input:focus {
+	outline: unset;
+	background-color: #eee;
+}
