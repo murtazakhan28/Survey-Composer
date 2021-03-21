@@ -8,7 +8,13 @@ interface TextInputProps extends DetailedHTMLProps<InputHTMLAttributes<HTMLInput
 
 const TextInput = ({ value, onChange, ...rest }: TextInputProps) => {
 	return (
-		<input type="text" className="text-input" value={value} onChange={e => onChange(e.target.value)} {...rest} />
+		<input
+			type="text"
+			className="text-input w-100"
+			value={value}
+			onChange={e => onChange(e.target.value)}
+			{...rest}
+		/>
 	);
 };
 

@@ -1,12 +1,8 @@
 .text-input {
-	border: none;
-	padding: 10px;
-	font-size: larger;
-	margin: 5px;
+	padding: 8px;
 	color: #444;
 	background-color: #ddd;
 	font-family: sans-serif;
-	width: -moz-available;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #00000000;

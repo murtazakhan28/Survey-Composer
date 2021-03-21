@@ -1,8 +1,8 @@
 import { ReactChild } from "react";
-import "./index.css";
+import { CardFooter as BootstrapCardFooter } from "reactstrap";
 
 const CardFooter = ({ children }: { children?: ReactChild | ReactChild[] }) => {
-	return <div className="card-footer">{children}</div>;
+	return <BootstrapCardFooter>{children}</BootstrapCardFooter>;
 };
 
 export default CardFooter;

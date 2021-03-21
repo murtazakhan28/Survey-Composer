@@ -1,8 +1,14 @@
 import { ReactChild } from "react";
-import "./index.css";
+import { CardHeader as BootstrapCardHeader } from "reactstrap";
 
 const CardHeader = ({ children }: { children?: ReactChild | ReactChild[] }) => {
-	return <div className="card-header">{children}</div>;
+	return (
+		<BootstrapCardHeader
+			style={{ backgroundColor: "#212", color: "white", textTransform: "uppercase", fontWeight: "bold" }}
+		>
+			{children}
+		</BootstrapCardHeader>
+	);
 };
 
 export default CardHeader;

@@ -1,8 +1,8 @@
 import { ReactChild } from "react";
-import "./index.css";
+import { CardBody as BootstrapCardBody } from "reactstrap";
 
 const CardBody = ({ children }: { children?: ReactChild | ReactChild[] }) => {
-	return <div className="card-body">{children}</div>;
+	return <BootstrapCardBody>{children}</BootstrapCardBody>;
 };
 
 export default CardBody;

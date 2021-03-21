@@ -1,5 +1,4 @@
-.container {
-	width: 100%;
+.app-container {
 	height: calc(100vh - 56px);
 	overflow-y: auto;
 }

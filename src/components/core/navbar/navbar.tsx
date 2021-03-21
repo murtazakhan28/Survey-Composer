@@ -3,7 +3,7 @@ import "./index.css";
 
 const Navbar = () => {
 	return (
-		<div className="navbar-container bg-dark">
+		<div className="navbar-container bg-custom-dark">
 			<NavbarButton title="Home" path="/" />
 			<NavbarButton title="About" path="/about" />
 			<NavbarButton title="License" path="/license" />
